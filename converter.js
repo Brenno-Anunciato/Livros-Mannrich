@@ -618,3 +618,11 @@ function exibirImagem() {
   }
 
 }
+
+var codigo = window.document.getElementById('tombo')
+codigo.addEventListener("keydown", function(event) {
+    if (event.key === "Enter") {
+        exibirImagem()
+    }
+})
+
